@@ -40,7 +40,7 @@ Descripción breve del proyecto. Este podría ser un sitio web desarrollado con 
 ## 🎯 Próximos Pasos
 
 - **Aprendizaje Actual:** Mejorando mis habilidades en React, Nuxt js y Node  js.
-- **Proyectos Futuros:** Desarrollar una  Plugin de reserva para wordpress usando Vue JS, con pagos Paypal, Niubix y IZIpay   .
+- **Proyectos Futuros:** Desarrollar una  Plugin de reserva para wordpress usando Vue JS, con pagos Paypal, Niubiz y IZIpay   .
 
 ---
 
