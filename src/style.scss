@@ -1,2 +1,54 @@
-@import url('../node_modules/bootstrap/scss/bootstrap.scss');
+$emerald: (
+    50: #edfff7,
+    100: #d5ffee,
+    200: #aeffde,
+    300: #70ffc6,
+    400: #2bfda7,
+    500: #00dc82,
+    600: #00c06d,
+    700: #009658,
+    800: #067549,
+    900: #07603e,
+    950: #003721,
+);
 
+$primary: #00dc82;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Loop to generate background utility classes
+@each $key, $color in $emerald {
+    .bg-#{$key} {
+        background-color: $color !important;
+    }
+}
+  
+// Loop to generate text utility classes
+@each $key, $color in $emerald {
+    .text-#{$key} {
+        color: $color;
+    }
+}
+
+.router-link-active{
+  color: #2bfda7 !important;
+  border-bottom: 2px solid #00dc82;
+}
+.img-cover{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.btn-social{
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 32px;
+  border-radius: 5px;
+  color: #00c06d;
+  border: 1px solid #00c06d;
+  &:hover{
+    color: $primary;
+    border-color: $primary;
+  }
+}
