@@ -15,7 +15,7 @@ const routes = [
     }
 ];
 const router = createRouter({
-    history: createWebHistory ('myprofile'),
+    history: createWebHistory (),
     routes
 })
 export default router;
